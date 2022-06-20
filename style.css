@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+body{
+    background-color: black;
+}
+main{
+    background-color: white;
+    position: absolute;
+    left: 17%;
+    right: 17%;
+    justify-content: center;
+    height: 77%;
+    margin: 78px 0px;
+}
+.Everything {
+    display: flex;
+    width: 65%;
+    height: 49vh;
+    margin-left: 145px;
+    margin-top: 10%;
+}
+.first{
+    background-color: #E28525;
+    padding: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.second{
+    background-color: #016972;
+    padding: 2em;
+}
+.third{
+    background-color: #00403F;
+    padding: 2em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text {
+    color: #80B2B1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.carname{
+    color: white;
+}
+.press {
+    border: 0;
+    background: white;
+    display: block;
+    text-align: center;
+    padding: 9px 20px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.click1{
+    color: #E28525;
+}
+.click2{
+    color: #016972;
+}
+.click3{
+    color: #00403F;
+}
+.text{
+    padding: 0px;
+    margin-top: 10px;
+    }
+.image{
+    /* padding-top: 20px; */
+    padding-bottom: 18px;
+}

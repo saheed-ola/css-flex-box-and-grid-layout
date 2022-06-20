@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+    display: flex;
+    place-items: center;
+    margin: auto;
+}
+
+.general{
+    height: 50vh;
+    width: 90%;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 150px;
+    padding: 2em;
+    display: grid;
+    grid-template-areas: 
+    " a a b "
+    " a a b "
+    " e c c "
+    " e d d "
+    ;
+    gap: 5px;
+}
+.grp1{
+    background-color: #EB5020;
+    grid-area: a;
+}
+.grp2{
+    background-color: #FFA401;
+    grid-area: b;
+}
+.grp3{
+    background-color: #01AEFD ;
+    grid-area: c;
+}
+.grp4{
+    background-color: #01AEFD;
+    grid-area: d;
+}
+.grp5{
+    background-color: #05AA42;
+    grid-area: e;
+}
